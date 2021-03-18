@@ -1,0 +1,57 @@
+body{
+background-image: url(donate.jpg);
+background-size: cover;
+}
+.wrapper{
+width: 420px;
+height: 540px;
+color: #000;
+top: 50%;
+left: 50%;
+padding: 16px 30px;
+position:absolute;
+transform: translate(-50%, -50%);
+box-sizing: border-box;
+border:2px solid transparent;
+background:#fff;
+}
+h1
+{
+font-weight:bold;
+font-family: Garamond;
+}
+form {
+  border: 2px solid transparent;
+}
+.wrapper label{
+font-family: Garamond;
+font-size: 19px;
+}
+.wrapper input[type=text], input[type=text],input[type=password],input[type=password] {
+  width: 90%;
+  padding: 12px 20px;
+  margin: 8px 5px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+font-family: Garamond;
+font-size: 17px;
+}
+button {
+  background-color: #3090C7;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+font-family: Garamond;
+font-size: 17px;
+}
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+font-family: Garamond;
+font-size: 17px;
+}
